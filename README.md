@@ -2,7 +2,14 @@
 
 UserlistGenerator is a Rust tool for generating lists of usernames to be used in brute-force attacks. It creates permutations of names from a wordlist file, providing lowercase and optional uppercase variations. This tool is especially useful in conjunction with [Kerbrute](https://github.com/ropnop/kerbrute).
 
-## Usage
+## Compiling the Rust Script
+To compile the Rust script, run the following command:
+```bash
+rustc userlistgenerator.rs
+```
+
+## Using the Compiled Executable
+After compiling the Rust script, you can use the generated executable as follows:
 ```bash
 ./userlistgenerator -w <wordlist> [-u]
 ```
