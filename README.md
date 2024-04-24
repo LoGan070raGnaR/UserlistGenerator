@@ -18,7 +18,19 @@ UserlistGenerator is a Rust tool for generating lists of usernames to be used in
 
 ## Example
 ```bash
-./userlist_generator -w example_wordlist.lst
+./userlistgenerator -w example_wordlist.lst
+```
+
+## Compiling the Rust Script
+To compile the Rust script, run the following command:
+```bash
+rustc userlistgenerator.rs
+```
+
+## Using the Compiled Executable
+After compiling the Rust script, you can use the generated executable as follows:
+```bash
+./userlistgenerator -w <wordlist> [-u]
 ```
 
 ## What is Kerbrute?
@@ -26,4 +38,3 @@ UserlistGenerator is a Rust tool for generating lists of usernames to be used in
 
 ## Credits
 This project was inspired by the [username_generator](https://github.com/shroudri/username_generator) project written in Python.
-
