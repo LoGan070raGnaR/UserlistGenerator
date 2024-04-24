@@ -9,7 +9,7 @@ UserlistGenerator is a Rust tool for generating lists of usernames to be used in
 
 ## Usage
 ```bash
-./userlist_generator -w <wordlist> [-u]
+./userlistgenerator -w <wordlist> [-u]
 ```
 
 ### Options
