@@ -113,4 +113,4 @@ IPMAN
 [Kerbrute](https://github.com/ropnop/kerbrute) is a tool used for performing Kerberos pre-authentication brute-force attacks. It's commonly used for testing password policies and assessing security risks.
 
 ## Credits
-This project was inspired by the [username_generator.py](https://github.com/) project written in Python.
+This project was inspired by the [username_generator](https://github.com/shroudri/username_generator) project written in Python.
